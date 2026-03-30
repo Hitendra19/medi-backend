@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+langchain
+langchain-community
+langchain-huggingface
+pinecone
+pymongo
+ultralytics
+pillow
+opencv-python-headless
+numpy
+huggingface_hub
