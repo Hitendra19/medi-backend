@@ -452,11 +452,3 @@ async def fracture_detection(file: UploadFile = File(...)):
     except Exception as e:
         return JSONResponse({"error": str(e)})
 
-if __name__ == "__main__":
-    print("🚀 Backend is running on http://localhost:8000")
-    uvicorn.run(
-        app, 
-        host="localhost",  # listens only on your machine
-        port=8000,         # the port you fetch from in RN
-        timeout_keep_alive=30  # optional, helps with long-running requests
-    )
