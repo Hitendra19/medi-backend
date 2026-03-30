@@ -30,8 +30,9 @@ import cv2
 # ----------------------------
 # 1️⃣ Load environment variables
 # ----------------------------
-dotenv_path=r"C:\Users\JBC\Desktop\React Native\ShenAI\.env"
-load_dotenv(dotenv_path)
+# dotenv_path=r"C:\Users\JBC\Desktop\React Native\ShenAI\.env"
+# load_dotenv(dotenv_path)
+load_dotenv()
 PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY')
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
