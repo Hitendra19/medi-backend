@@ -4,6 +4,7 @@ pydantic
 python-dotenv
 requests
 langchain
+langchain-pinecone
 langchain-community
 langchain-huggingface
 pinecone
