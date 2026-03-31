@@ -46,7 +46,7 @@ os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 # Install if needed: pip install -U langchain-huggingface
 from langchain_huggingface import HuggingFaceEmbeddings
 
-embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-large-en-v1.5")  # 1024 dims
+embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")  # 1024 dims
 
 #bone fracture
 
@@ -57,7 +57,7 @@ model_path = hf_hub_download(
 )
 
 
-model = YOLO(model_path) # or "runs/detect/train/weights/best.pt"
+# model = YOLO(model_path) # or "runs/detect/train/weights/best.pt"
 
 
 
