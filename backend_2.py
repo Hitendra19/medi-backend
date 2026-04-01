@@ -40,7 +40,7 @@ class QueryRequest(BaseModel):
 def get_embeddings():
     from langchain_huggingface import HuggingFaceEmbeddings
     return HuggingFaceEmbeddings(
-        model_name="BAAI/bge-small-en-v1.5"  # smaller + faster
+        model_name="BAAI/bge-large-en-v1.5"  # smaller + faster
     )
 
 
